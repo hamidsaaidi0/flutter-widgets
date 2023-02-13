@@ -1,3 +1,4 @@
+import 'package:bestwidgets/bottom_navBar/simple_bottom_navbar.dart';
 import 'package:bestwidgets/screens/login_screen.dart';
 import 'package:bestwidgets/widgets/AlertDialog.dart';
 import 'package:bestwidgets/widgets/AnimatedContainer.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Login_Screen(),
+      home: SimpleNavBar(),
     );
   }
 }
